@@ -1,0 +1,16 @@
+.piece {
+	font-size: 40px;
+	user-select: none;
+	line-height: 1;
+	filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.3));
+}
+
+.piece.white {
+	color: #f9fafb;
+	text-shadow: 0 0 8px rgba(255, 255, 255, 0.35);
+}
+
+.piece.black {
+	color: #111826;
+	text-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,32 @@
+.game-layout {
+	display: grid;
+	grid-template-columns: 1fr 340px;
+	gap: 16px;
+	align-items: start;
+}
+
+.side-panel {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.history-list {
+	margin: 0;
+	padding-left: 18px;
+	max-height: 240px;
+	overflow-y: auto;
+	display: grid;
+	gap: 6px;
+	color: #e6edf7;
+}
+
+.history-list li {
+	line-height: 1.4;
+}
+
+@media (max-width: 1024px) {
+	.game-layout {
+		grid-template-columns: 1fr;
+	}
+}
